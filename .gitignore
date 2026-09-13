@@ -23,6 +23,8 @@ ENV/
 *.parquet
 *.joblib
 *.pkl
+data/raw/*.csv
+data/processed/*.csv
 
 # PDF files
 *.pdf

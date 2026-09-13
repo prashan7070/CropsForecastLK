@@ -1,0 +1,74 @@
+{
+  "total_rows": 94755,
+  "total_columns": 7,
+  "columns": [
+    "District",
+    "Season",
+    "CropCategory",
+    "Crop",
+    "Year",
+    "Extent",
+    "Production"
+  ],
+  "is_schema_valid": true,
+  "schema_errors": [],
+  "memory_mb": 34.84,
+  "column_profiles": {
+    "District": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 27
+    },
+    "Season": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 3
+    },
+    "CropCategory": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 11
+    },
+    "Crop": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 91
+    },
+    "Year": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 40
+    },
+    "Extent": {
+      "dtype": "str",
+      "null_count": 16644,
+      "null_percentage": 17.57,
+      "unique_values": 9830
+    },
+    "Production": {
+      "dtype": "str",
+      "null_count": 17016,
+      "null_percentage": 17.96,
+      "unique_values": 19668
+    }
+  },
+  "dirty_formatting_detected": {
+    "Extent": {
+      "comma_formatted_rows": 7146,
+      "missing_indicator_tokens": {},
+      "total_token_rows": 0
+    },
+    "Production": {
+      "comma_formatted_rows": 21915,
+      "missing_indicator_tokens": {},
+      "total_token_rows": 0
+    }
+  },
+  "aggregate_rows_detected": 38701,
+  "zero_extent_anomalies": 292
+}
