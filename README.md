@@ -1,4 +1,4 @@
-# AgriLens SL: Highland Crops Yield & Production Forecasting System 🇱🇰🌾
+# CropsForecastLK: Highland Crops Yield & Production Forecasting System 🇱🇰🌾
 
 > A full-stack, machine-learning-driven agricultural intelligence platform tailored for Sri Lanka. The application predicts crop production and yield across districts based on historical time-series data, cultivation extent, crop types, and seasonal patterns (Yala / Maha).
 
