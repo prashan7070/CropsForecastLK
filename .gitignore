@@ -1,10 +1,28 @@
-*.md
-*.pdf
-*.xlsx
+# Python artifacts
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environments
 .venv/
 venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# IDEs & OS
 .DS_Store
 .idea/
 .vscode/
+
+# Raw and large binary datasets (keep repository lightweight)
+*.xlsx
+*.parquet
+*.joblib
+*.pkl
+
+# PDF files
+*.pdf
